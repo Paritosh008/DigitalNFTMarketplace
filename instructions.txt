@@ -1,0 +1,13 @@
+
+1) install all dependencies in root folder by typing-
+	npm install
+2) compile, test and deploy smart contracts
+	npx hardhat compile
+	npx hardhat test
+	npx hardhat node
+In a new terminal-
+	npx hardhat run scripts/deploy.js --network localhost
+	
+3) in new terminal type
+	npm run dev
+
